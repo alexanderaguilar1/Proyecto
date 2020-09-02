@@ -22,13 +22,13 @@
 
     	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="form-group">
-            	<label for="nombre">Nombre</label>
+            	<label for="nombre">Nombre:</label>
             	<input type="text" name="nombre" requerid value="{{old('nombre')}}" class="form-Control" placeholder="Nombre...">
             </div>
     	</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     		<div class="form-group"> 
-    			<label>Categoría</label>
+    			<label>Categoría:</label>
     			<select name="idcategoria"class="form-control">
     				@foreach ($categorias as $cat)
     				<option values="{{$cat->idcategoria}}">{{$cat->nombre}}</option>
@@ -38,25 +38,25 @@
     	</div>
     	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     		<div class="form-group">
-            	<label for="codigo">Código</label>
+            	<label for="codigo">Código:</label>
             	<input type="text" name="codigo" requerid value="{{old('codigo')}}" class="form-control" placeholder="Código del articulo...">
             </div>
     	</div>
     	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     		<div class="form-group">
-            	<label for="stock">Stock</label>
+            	<label for="stock">Stock:</label>
             	<input type="text" name="stock" requerid value="{{old('codigo')}}" class="form-control" placeholder="Stock del articulo...">
             </div>
     	</div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     		<div class="form-group">
-            	<label for="descripcion">Descripción</label>
+            	<label for="descripcion">Descripción:</label>
             	<input type="text" name="descripcion" requerid value="{{old('descripcion')}}" class="form-control" placeholder="Descripción del articulo...">
             </div>
     	</div>    
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
     		<div class="form-group">
-            	<label for="imagen">Imagen</label>
+            	<label for="imagen">Imagen:</label>
             	<input type="file" name="imagen" class="form-control">
             </div>
         </div>   
